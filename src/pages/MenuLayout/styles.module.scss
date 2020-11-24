@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+
+.products-section
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    flex:4;
+    padding:20px;
+}
+
+.product-viewer
+{
+    flex:1;
+    margin-top: 10px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-section
+{
+    flex:1;
+    height:90vh;
+    background: white;
+}
+
+
+.filter-title
+{
+    color:$menu-highlight-color;
+    font-weight: bold;
+    padding: 20px;
+}

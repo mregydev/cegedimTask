@@ -1,0 +1,109 @@
+@import '../../styles/variables';
+
+.menu-item
+{
+  a
+  {
+  color:$menu-font-color;
+  font-weight: bold;
+  }
+  height: 50px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
+.title
+{
+position: absolute;
+color:$menu-highlight-color;
+font-weight: bold;
+}
+
+.menu-item-selected
+{
+a
+{
+color:$menu-highlight-color;
+}
+background-color: whitesmoke;
+
+border-left: 4px solid $menu-highlight-color;
+}
+
+.child-selected
+{
+  a
+  {
+  color:$menu-highlight-color 
+  }
+}
+
+.menu-container
+{
+  width:300px;
+  height: 90vh;
+  top:80px;
+  left: 0px;
+  background: white;
+  box-shadow: 0px 0px 20px 20px solid black !important;
+  transition: 0.1s;
+}
+
+.menu-collapsed
+{
+ .menu-items,.title
+ {
+   display: none;
+ }
+
+ .menu-icon
+ {
+   color:$menu-font-color
+ }
+
+ background: $menu-highlight-color;
+ width: 50px;
+ transition: 0.2s;
+}
+
+.menu-icon
+{
+  float: right;
+  margin-right: 10px;
+ cursor: pointer;
+ color:$menu-font-color
+}
+
+.header-section
+{
+  margin-top: 10px;
+  height: 40px;
+  padding-left: 20px;;
+}
+
+.menu-items
+{ 
+  .parent-list
+  {
+    padding:0px;
+  }
+
+  li
+  {
+    list-style-type: none;
+    margin-bottom: 40px;
+  }
+
+  a
+  {
+    text-decoration: none;
+  }
+}
+
+.child-list
+{
+ margin-top: 30px;
+}

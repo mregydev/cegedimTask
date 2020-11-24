@@ -1,0 +1,12 @@
+{
+    "messages.Dashboad": "Dashboad",
+    "messages.menuLayout": "Main",
+    "messages.orderHistory": "Order History",
+    "messages.bookingSystem": "Booking System",
+    "messages.menuTitle": "Menu title",
+    "messages.profilePage": "Profile Page",
+    "messages.editProfile": "Edit Profile",
+    "messages.filter":"Filter",
+    "messages.login":"Login",
+    "messages.loginNote":" to your to manage all services"
+}

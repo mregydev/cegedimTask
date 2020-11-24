@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":1,
+        "type":"Drinks",
+        "language":"Chinese"
+    },
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":1,
+        "type":"Drinks",
+        "language":"Chinese"
+    },
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":2,
+        "type":"Drinks",
+        "language":"Chinese"
+    },
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":3,
+        "type":"Drinks",
+        "language":"Chinese"
+    },
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":1,
+        "type":"Drinks",
+        "language":"Chinese"
+    },
+    {
+        "title":"Chicken Sandwich",
+        "price":25,
+        "promo":4,
+        "type":"Drinks",
+        "language":"Chinese"
+    }
+
+
+]
