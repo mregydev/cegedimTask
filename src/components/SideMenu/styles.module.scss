@@ -43,13 +43,16 @@ border-left: 4px solid $menu-highlight-color;
 
 .menu-container
 {
-  width:300px;
+  position: sticky;
+  width:320px;
   height: 90vh;
   top:80px;
   left: 0px;
   background: white;
   box-shadow: 0px 0px 20px 20px solid black !important;
   transition: 0.1s;
+  overflow: auto;
+
 }
 
 .menu-collapsed

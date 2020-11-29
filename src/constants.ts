@@ -1,22 +1,59 @@
-export const Promotypes={
-    SpecialMenu:{
-        id:1,
-        textValue:"Speical Menu"
+export const FilterFields = [
+    {
+        FieldName: "promo",
+        type: "checkBox",
+        values: [
+            {
+                id: 1,
+                textValue: "Speical Menu"
+            },
+            {
+                id: 2,
+                textValue: "Buy 1 Get 1"
+            },
+            {
+                id: 3,
+                textValue: "Bank Promotions"
+            },
+            {
+                id: 4,
+                textValue: "Happy Hour"
+            },
+            {
+                id: 5,
+                textValue: "Event"
+            },
+        ]
     },
-    Buy1Get1:{
-        id:2,
-        textValue:"Buy 1 Get 1"
+    {
+        FieldName: "type",
+        type: "checkBox",
+        values: [
+            {
+                id: 1,
+                textValue: "Main Food"
+            },
+            {
+                id: 2,
+                textValue: "Drinks"
+            },
+            {
+                id: 3,
+                textValue: "Dessert"
+            },
+            {
+                id: 4,
+                textValue: "Side Menu"
+            }
+        ]
     },
-    BankPromotions:{
-        id:3,
-        textValue:"Bank Promotions"
+    {
+        Label:"Price Range",
+        FieldName: "price",
+        type: "range",
+        min:0,
+        max:100,
     },
-    HappyHour:{
-        id:4,
-        textValue:"Happy Hour"
-    },
-    Event:{
-        id:5,
-        textValue:"Event"
-    }
-}
+]
+
+

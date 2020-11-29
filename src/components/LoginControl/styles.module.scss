@@ -7,7 +7,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:100vh
+    height:100vh;
+    position: relative;
 }
 
 .login-note
@@ -29,10 +30,11 @@
 
 .login-form
 {
+    text-align: center;
     input[type='text'],input[type='password']
     {
         padding:5px;
-        width: 100%;
+        width: 90%;
         height: 40px;
         border-radius: 5px;
         border:0px;
@@ -44,14 +46,15 @@
 
     input[type='submit']
     {
+        
         background: $menu-highlight-color;
         color:white;
         font-weight: bold;
         font-size: 15px;
-        width: 100%;
+        width: 90%;
         height: 50px;
         border:0px;
-        text-decoration: none;
+        outline: none;
         box-shadow: 0px 0px 5px $menu-font-color;
         margin-top: 40px;
         border-radius: 50px;

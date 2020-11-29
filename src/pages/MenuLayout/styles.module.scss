@@ -4,30 +4,44 @@
 .products-section
 {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     flex:4;
-    padding:20px;
+    padding:10px;
+    margin: auto;
+    margin-top:-18px;
+ 
 }
 
 .product-viewer
 {
     flex:1;
     margin-top: 10px;
+    max-width: 420px;
 }
 
-.container
+.main-container
+{
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+.list-container
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 }
 
 .filter-section
 {
     flex:1;
-    height:90vh;
+    height:auto;
+    margin-right:20px;
     background: white;
+    padding-bottom: 20px;
+    min-height: 90vh;
 }
 
 
@@ -36,4 +50,19 @@
     color:$menu-highlight-color;
     font-weight: bold;
     padding: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .list-container
+    {
+        flex-direction: column;
+    }
+    
+    .products-section
+    {
+        justify-content: center;   
+        margin-left: -18px;
+        margin-top: 10px;
+flex:1;
+    }
 }
